@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="io.adanianlabs.testcase.fragments.TimelineFragment"
+        android:label="@string/title_timeline"
+        tools:layout="@layout/fragment_timeline" />
+    <fragment
+        android:id="@+id/navigation_mentorship"
+        android:name="io.adanianlabs.testcase.fragments.MentorshipFragment"
+        android:label="@string/title_mentorship"
+        tools:layout="@layout/fragment_mentorship" />
+    <fragment
+        android:id="@+id/navigation_groups"
+        android:name="io.adanianlabs.testcase.fragments.GroupsFragment"
+        android:label="@string/title_groups"
+        tools:layout="@layout/fragment_groups" />
+    <fragment
+        android:id="@+id/navigation_content"
+        android:name="io.adanianlabs.testcase.fragments.ContentFragment"
+        android:label="@string/title_content"
+        tools:layout="@layout/fragment_content" />
+    <fragment
+        android:id="@+id/navigation_store"
+        android:name="io.adanianlabs.testcase.fragments.StoreFragment"
+        android:label="@string/title_store"
+        tools:layout="@layout/fragment_store" />
+
+
+</navigation>

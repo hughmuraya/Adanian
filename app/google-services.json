@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "692296030771",
+    "project_id": "adanian-labs",
+    "storage_bucket": "adanian-labs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692296030771:android:84c9672d9d86466ba66146",
+        "android_client_info": {
+          "package_name": "io.adanianlabs.testcase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692296030771-fd7v25552tvmvfv1tp80p07u8sgduel5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.adanianlabs.testcase",
+            "certificate_hash": "a4d1bef3ecada53f2460d89b154e466751f5b241"
+          }
+        },
+        {
+          "client_id": "692296030771-5k65ld2m4a4jt81p4tfgc30g3o8tunk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1DsTfcEl1ax5LGepttI_pNrvbhC7XAyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692296030771-5k65ld2m4a4jt81p4tfgc30g3o8tunk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
