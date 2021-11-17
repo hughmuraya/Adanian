@@ -186,8 +186,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                         Log.e(TAG, response.toString());
 
-                        Toast.makeText(LoginActivity.this, "Complete!", Toast.LENGTH_SHORT).show();
-
+//                        Toast.makeText(LoginActivity.this, "Complete!", Toast.LENGTH_SHORT).show();
 
                         try {
                             boolean  success = response.has("Success") && response.getBoolean("Success");
@@ -238,16 +237,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 //                        Log.e(TAG, error.getErrorBody());
 
                         if(error.getErrorCode() == 0){
-                            Intent mint = new Intent(LoginActivity.this, MainActivity.class);
-                            mint.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                            startActivity(mint);
+
 //                            Toast.makeText(LoginActivity.this, "uncomplete!", Toast.LENGTH_SHORT).show();
                         }
                         else {
                             Snackbar.make(findViewById(R.id.activity_sign_in), "" + error.getErrorBody(), Snackbar.LENGTH_LONG).show();
 
                         }
-
                         
 
 
